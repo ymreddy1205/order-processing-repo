@@ -106,7 +106,7 @@ public class UserDaoImpl implements UserDAO{
 		user.setUserId(resultSet.getInt("USER_ID"));
 		user.setUserName(resultSet.getString("USER_NAME"));
 		user.setEmail(resultSet.getString("EMAIL"));
-		user.setPassword(resultSet.getString("PASSWORD"));
+		user.setPassword(resultSet.getString("PWD"));
 		//java.sql.Date->java.time.LocalDate
 		user.setCreateDate(resultSet.getDate("CREATE_DATE").toLocalDate());
 		

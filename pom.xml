@@ -36,11 +36,16 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-war-plugin</artifactId>
+			<version>3.2.3</version>
+			<type>maven-plugin</type>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>order-processing</finalName>
 	</build>
-
 </project>
 
 
